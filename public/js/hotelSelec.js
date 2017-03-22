@@ -1,4 +1,4 @@
-var hotelarr = [];
+var hotelarr = ['make you selection', 'make you selection', 'make you selection'];
 var day = 0;
 $("#hotel-choices")
 .on('change', function (e) {
@@ -10,5 +10,4 @@ $("#hotel-choices")
   selectHotel = $(this).val();
   hotelarr[day] = selectHotel;
   $("#hotel-selected").text(hotelarr[day]);
-})
-// .change();
+});
